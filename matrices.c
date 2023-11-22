@@ -16,11 +16,16 @@ int main() {
             matriz[n][m] = cont++;
         }
     }
+    
     // Imprimir la matriz
     printf("Matriz resultante:\n");
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columna; j++) {
             printf("%d ", matriz[j][i]);
+        }
+        printf("\n");
     }
+    
     return 0;
 }
+
